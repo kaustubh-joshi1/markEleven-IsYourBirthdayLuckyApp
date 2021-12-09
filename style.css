@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    text-align: center;
+    width: 100%;
+    font-family: 'Baloo Bhai 2';
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-image: linear-gradient(45deg, #f772b2, aqua);
+}
+
+.title{
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin-bottom: auto;
+    padding: 0.75rem 0;
+    background-color: #8B5CF6;
+}
+
+h2{
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    font-weight: 500;
+}
+
+.sub-title{
+    margin-top: 1.5rem;
+    margin-bottom: 4rem;
+    font-size: 1.5rem;
+}
+
+input, label{
+    display: block;
+    margin: 0 auto;
+}
+
+label{
+    font-size: 1.4rem;
+    margin-bottom: 0.5rem;
+}
+input{
+    font-size: 1.3rem;
+    border: 2px solid #8B5CF6;
+    border-radius: 0.35rem;
+    padding: 0.4rem;
+    max-width: 15rem;
+}
+
+.luckynumber-input{
+    text-align: center;
+}
+
+.dob, .luckynumber{
+    margin: 1.5rem 0;
+}
+
+button{
+    margin: 2.5rem;
+    border-radius: 28px;
+    color: #000000;
+    font-size: 1.4rem;
+    background: #8B5CF6;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    border: 2px solid #000000;
+}
+
+.result{
+    font-size: 1.7rem;
+    margin-bottom: 2rem;
+}
+
+/* Footer */
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #8B5CF6;  
+  }
+  footer a{
+    font-size: 1.5rem;
+    color: rgb(5, 1, 12);
+    padding: 0.5rem;
+    /* margin-right: 1rem; */
+  
+  }
+  
+  footer a:not(:last-child){
+    margin-right: 1rem;
+  }
+  
+  footer p{
+    margin-top: 1rem;
+  }
+  
